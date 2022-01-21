@@ -1,0 +1,24 @@
+.list-flex-left ul li a,.list-flex-right ul li a{
+    font-size: 3vh;
+    /* font-family: 'Electrolize', sans-serif; */
+    font-family: monospace;
+    /* color:navy; */
+    text-decoration: none;
+   }
+
+
+   .list-flex-left ul li a:hover,.list-flex-right ul li a:hover{
+    font-size: 3vh;
+    font-family: monospace;
+    /* color:white; */
+    /* background-color: navy; */
+    background-size: cover;
+    text-decoration: none;
+   }
+
+   .list-flex-left ul li a img:hover,.list-flex-right ul li a img:hover{
+    /* height: 3vh;
+    width:3vh; */
+    color: navajowhite;
+    /* background-color: navy; */
+     }

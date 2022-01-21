@@ -1,0 +1,381 @@
+
+body{
+  font-family: cursive;
+}.section{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    /* margin-left: 50px; */
+ justify-content: space-around;
+ justify-items: center;
+    
+}
+.section2{
+  height:auto;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap-reverse;
+  margin-top: 50px;
+justify-content: space-around;
+justify-items: center;
+  
+}
+
+.sectionleft,.section2left{
+background-color: white;
+width:45%;
+/* position: relative; */
+}
+.section2left{
+  position: relative;
+}
+
+.sectionright{
+    /* background-color: pink; */
+    position: relative;
+    text-align: center;
+    width:45%;
+    height:auto;
+    /* justify-items:center; */
+    /* border-radius: 50px; */
+    /* justify-content: center; */
+    color:black;
+    /* position:relative; */
+    /* background-image: url("doctor-1.png");
+    background-size:cover;
+    background-attachment:scroll; */
+
+    
+}
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    font-weight: 900;
+   
+    margin-top: 3vh;
+    
+    color:white;
+}
+.centered-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 900;
+ 
+  margin-top: 3vh;
+  
+  /* color:white; */
+  /* background-color: black; */
+}
+.centered-1 h1{
+  color:white;
+  background-color: navy;
+  font-size: 4vh;
+  text-align: center;
+}
+.centered h2{
+  font-size: 1.6rem;
+  /* color:#7868E6; */
+  background-color: navy;
+  color:white;
+
+ 
+}
+.centered h2 ,.centered h3{
+  background-color: navy;
+  color:white;
+}
+    
+.top-left {
+  /* position: absolute; */
+  /* top: 8px;
+  left: 120px; */
+  /* z-index: index -1; */
+  height:auto;
+  color:black;
+  /* font-family: monospace; */
+  font-size: 1rem;
+ 
+}
+.top-left h3{
+  color:black;
+ 
+  font-size: 18px;
+  font-weight: 100;
+}
+.section2right{
+  /* background-color: pink; */
+  width:50%;
+  height: auto;
+  justify-items:center;
+  border-radius: 50px;
+  justify-content: center;
+  color:navy;
+  position: relative;
+  /* background-image: url("maxhealthcare.jpg"); */
+}
+/* net se dekha for resizing */
+@media (max-width: 1100px) {
+    .sectionright, .sectionleft,.section2right,.section2left {
+      flex: 100%;
+    }
+  }
+ 
+    /* for the haeding */
+  .main-g{
+     
+     color:navy;
+     text-decoration: underline;
+     font-size: 6vh;
+     /* font-family: monospace; */
+    }
+    .header-g{
+      color:seagreen;
+      text-decoration: underline;
+      font-size: 4vh;
+      /* font-family: monospace; */
+    }
+    /* for the list */
+    .list-flex{
+      display:flex;
+      /* flex-wrap: wrap; */
+    }
+    .list-flex-left,.list-flex-right{
+      height: 90%;
+      width: 50%;
+      position: relative;
+      display: inline-block;
+      
+      /* background-color: seashell; */
+    }
+  
+    .list-flex-left ul,.list-flex-right ul{
+     list-style-type:none;
+     
+    
+    }
+    .list-flex-left ul li,.list-flex-right ul li{
+      padding:10px 10px;
+      color:navy;
+      cursor:pointer;
+      font-size: 3vh;
+      /* font-family: monospace; */
+      text-decoration: none;
+      
+     }
+ 
+
+    
+    .list-flex-left ul li:hover,.list-flex-right ul li:hover{
+      background-color: navy;
+      color:white;
+      /* font-family: monospace; */
+      text-decoration: none;
+     }
+     .list-flex-left ul li img,.list-flex-right ul li img{
+     
+    height: 5vh;
+     width:3vw;}
+
+.img-top {
+  display: none;
+  position: absolute;
+  /* height: 5vh;
+  width:3vw; */
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+ .list-flex-left ul li:hover{
+    display: block;
+ }
+    
+    
+    
+    
+    
+  
+     .view-all{
+       color: navy;
+       font-size: 2.7vh;
+       text-decoration: none;
+       margin: 10px;
+     }
+     .view-all:hover{
+      color: navy;
+      font-size: 2.8vh;
+      text-decoration: underline;
+      transition: 1s;
+      padding: 10px;
+    }
+
+
+
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+
+
+    /* for button */
+    .button{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button1{
+      background-color: navy;
+      color:white;
+      margin:10px;
+      padding: 10px;
+      /* font-family: monospace; */
+      font-size: 20px;
+      border:1px solid black;
+      border-radius: 10px;
+    }
+    /* 
+    for video */
+    .section2left img{
+      height:100%;
+      width:100%;
+      background-color: greenyellow;
+
+    }
+    .section2right h1{
+      color:navy;
+      text-decoration: underline;
+      /* font-family: monospace; */
+      font-size: 40px;
+    }
+    .section2right h2{
+      color:seagreen;
+      text-decoration: underline;
+      /* font-family: monospace; */
+      font-size: 30px;
+    }
+    .section2right p{
+      color:darkslategray;
+      
+      /* font-family: monospace; */
+      font-size: 15px;
+    }
+    /* swipe tabs */
+/* a little help from the net (Lol) */
+    
+    .wrapper,.wrapper-1{
+      max-width: 700px;
+      width: 100%;
+    
+      background: white;
+     
+    }
+    
+    .wrapper nav,.wrapper-1 nav{
+      position: relative;
+      width: 80%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    .wrapper nav label,.wrapper-1 nav label{
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      line-height: 50px;
+      cursor: pointer;
+      position: relative;
+      /* z-index: 1; */
+      z-index: 0;
+      color: darkslategray;
+      /* font-family: monospace; */
+      font-size: 1.4rem;
+      border-radius: 5px;
+      margin: 0 5px;
+      transition: all 0.3s ease;
+    }
+    .wrapper nav label:hover, .wrapper-1 nav label:hover{
+      color:seagreen;
+      /* font-family: monospace; */
+      font-weight: bold;
+      font-size:1.4rem;
+    }
+    #doctor:checked ~ nav label.doctor,
+    #hospital:checked ~ nav label.hospital,
+    #home_services:checked ~ nav label.home_services
+   
+    {
+      color: seagreen;
+      font-size: 1.4rem;
+      font-weight: 900;
+      /* font-family: monospace; */
+      text-decoration: underline;
+    }
+    #specialities:checked ~ nav label.specialities,
+    #procedures:checked ~ nav label.procedures
+    {
+      color: seagreen;
+      font-size: 1.4rem;
+      font-weight: 900;
+      /* font-family: monospace; */
+      text-decoration: underline;
+    }
+  
+    nav .slider,nav .slider-1{
+      position: absolute;
+      /* height: 100%;
+      width: 20%; */
+      /* left: 0;
+      bottom: 0;
+      z-index: 0; */
+ 
+      /* transition: all 0.3s ease; */
+      /* transition:0.3s; */
+
+    }
+    input[type="radio"]{
+      display: none;
+      /* display:inline-block; */
+    }
+    /* #doctor:checked ~ nav .slider{
+      left: 20%;
+    }
+    #hospital:checked ~ nav .slider{
+      left: 40%;
+    }
+    #home_services:checked ~ nav .slider{
+      left: 60%;
+    } */
+    section .content{
+      display: none;
+      /* background: red; */
+    }
+    #doctor:checked ~ section .content-1,
+    #hospital:checked ~ section .content-2,
+    #home_services:checked ~ section .content-3
+  
+   {
+      display:inline-block;
+    }
+    #specialities:checked ~ section .content-4,
+    #procedures:checked ~ section .content-5
+   {
+      display:inline-block;
+    }
+    /* end of this mahabharat */
+   
