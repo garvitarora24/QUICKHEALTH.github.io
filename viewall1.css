@@ -51,6 +51,8 @@ main h1{
     display: flex;
     text-decoration: none;
     flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
 }
 .flex-section-viewall-hover-1{
   height:30vh;
